@@ -47,7 +47,7 @@ export default function Login() {
         value={email}
         onChange={(e) => setEmail(e.target.value)}
       />
-      <button type="submit">Send Magic Link</button>
+      <button type="submit">Log in</button>
     </form>
   );
 }
