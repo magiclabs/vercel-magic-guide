@@ -16,7 +16,7 @@ export default function Login() {
     e.preventDefault();
 
     try {
-      const didToken = await magic.auth.loginWithMagicLink({
+      const didToken = await magic.auth.loginWithEmailOTP({
         email,
       });
 
